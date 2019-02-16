@@ -47,9 +47,9 @@
 - バーの表示を割合ごとに変えるには2つのバーを同じ位置で重ねて、上に重ねているバーの色の幅を割合ごとに変えます。`position:relative;`と`position:absolute`を上手く使って2つのバーを重ねましょう。
 - キャッチ画像と時計マークと円マークのアイコンは以下にあります。
 
-  - [キャッチ画像](./shared/sunglasses.jpg)
-  - [時計マーク](./shared/clock.png)
-  - [円マーク](./shared/yen.png)
+  - [キャッチ画像](https://firebasestorage.googleapis.com/v0/b/codegrit-188601.appspot.com/o/material-images%2Fhtml-css%2Flesson05%2Fsunglasses.jpg?alt=media&token=2c6d0fde-ef6d-49aa-891e-fae19ce1dde8)
+  - [時計マーク](https://firebasestorage.googleapis.com/v0/b/codegrit-188601.appspot.com/o/material-images%2Fhtml-css%2Flesson05%2Fclock.png?alt=media&token=2b2e981b-ddbe-46b2-9790-7e78a485663a)
+  - [円マーク](https://firebasestorage.googleapis.com/v0/b/codegrit-188601.appspot.com/o/material-images%2Fhtml-css%2Flesson05%2Fyen.png?alt=media&token=ffd17a50-ec9e-4d15-a019-e4018066b0b5)
 
 
 ## 評価
