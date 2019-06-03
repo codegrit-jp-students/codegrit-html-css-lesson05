@@ -37,6 +37,7 @@ OOCSSでのオブジェクトとは、Webサイトなどで繰り返し登場す
   </div>
 </div>
 ```
+
 ```css
 .button1 {
   background-color: #4ABCBA;
@@ -60,7 +61,11 @@ OOCSSでのオブジェクトとは、Webサイトなどで繰り返し登場す
 
 ![ボタン - 悪い例](./images/buttons1.png)
 
-ご覧の通り、悪い書き方ではそれぞれのボタンに対して全てのスタイルを記述しています。なぜこれが悪いかというとメンテナンスもしづらく、視認性も悪いからです。例えば、大きめの赤のボタンを作るときには更にもう一つクラスの定義をする必要があり、ボタンの数だけクラス定義が増えてしまいます。また、例えばですがフォントのサイズを13pxではなく12pxに変えたい場合、全てのボタンのフォントサイズを13pxから12pxに一個一個直さなければいけません。
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/64y2pqhu/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+ご覧の通り、悪い書き方ではそれぞれのボタンに対して全てのスタイルを記述しています。なぜこれが悪いかというと、**メンテナンスがしづらく、視認性も悪い**からです。
+
+例えば、大きめの赤のボタンを作るときには更にもう一つクラスの定義をする必要があり、ボタンの数だけクラス定義が増えてしまいます。また、例えばですがフォントのサイズを13pxではなく12pxに変えたい場合、全てのボタンのフォントサイズを13pxから12pxに一個一個直さなければいけません。
 
 2. 良い書き方
 
@@ -74,6 +79,7 @@ OOCSSでのオブジェクトとは、Webサイトなどで繰り返し登場す
   </div>
 </div>
 ```
+
 ```css
 .btn {
   font-size: 13px;
@@ -94,7 +100,10 @@ OOCSSでのオブジェクトとは、Webサイトなどで繰り返し登場す
   padding: 15px 30px;
 }
 ```
+
 ![ボタン - 良い例](./images/buttons2.png)
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/0vtayxop/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson05-sample-buttons-with-oocss)
 

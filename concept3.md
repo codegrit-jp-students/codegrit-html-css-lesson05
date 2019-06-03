@@ -34,24 +34,27 @@ Webサイトで良く使われるコンポーネントの一つがカードで�
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <title>インスタカード</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <article class="card">
+  <article class="insta-card">
     <section class="card-header">
-      <div class="card-poster-avatar">
-        <img src="./images/my-avatar.jpg">
+      <div class="poster-avatar">
+        <img src="./images/avatar.png">
       </div>
-      <div class="card-poster-name">
+      <div class="poster-name">
         testuser
       </div>
     </section>
     <section class="card-body">
       <div class="card-image">
-        <img >
+        <img>
       </div>
       <section class="card-main">
-        <div class="card-main-icons">
-          <ul class="flex-container card-main-icons-left">
+        <div class="icons">
+          <ul class="flex-container icons-left">
             <li class="icon-heart">
               <img src="./images/heart.png" width="30px" height="30px">
             </li>
@@ -59,43 +62,46 @@ Webサイトで良く使われるコンポーネントの一つがカードで�
               <img src="./images/bubble.png" width="30px" height="30px">
             </li>
           </ul>
-          <ul class="flex-container card-main-icons-right">
+          <ul>
             <li class="icon-bookmark icons-right">
               <img src="./images/bookmark.png" width="30px" height="30px">
             </li>
           </ul>
         </div>
-        <div class="card-like-counts">100 likes</div>
-        <ul class="card-comments">
-          <li class="card-poster-comment">
-            <a class="card-commenter-name">
+        <div class="like-counts">100 likes</div>
+        <ul class="comments">
+          <li class="poster-comment">
+            <a class="commenter-name">
               testuser
             </a>
-            <span class="card-commenter-comment">
+            <span class="commenter-comment">
               This is the insta-card!
             </span>
           </li>
           <li>
-            <a class="card-commenter-name">
+            <a class="commenter-name">
               testuser2
             </a>
-            <span class="card-commenter-comment">
+            <span class="commenter-comment">
               So cool!
             </span>
           </li>
-        </div>
-        <div class="card-post-date">1日前</div>
-        <section class="card-comment-box">
-          <div class="card-comment-area">コメントする</div>
-        </section>
+          </div>
+          <div class="post-date">1日前</div>
+          <section class="comment-box">
+            <div class="comment-area">コメントする</div>
+          </section>
       </section>
     </section>
   </article>
 </body>
+
 </html>
 ```
 
 ![insta-card-without-css](./images/insta-card-without-css.png)
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/5vL2o90n/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### 分けたパーツそれぞれにCSSを入れていく
 
@@ -231,6 +237,8 @@ li {
 ```
 
 いかがでしょう。長くなっているので、難しそうに感じるかもしれませんが、実際にはヘッダーの部分からパーツごとに順番に定義していっているので一つ一つのパーツの部分で見ればそれほど難しくないはずです。またレッスン4で習ったFlexboxを多く利用していますので、是非どんな風に使っているのか詳しく見てみて下さい。
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/2fg4m5hj/2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson05-sample-insta-card)
 
