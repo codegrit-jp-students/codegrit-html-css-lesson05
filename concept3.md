@@ -101,7 +101,7 @@ Webサイトで良く使われるコンポーネントの一つがカードで�
 
 ![insta-card-without-css](./images/insta-card-without-css.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/5vL2o90n/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/5vL2o90n/2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### 分けたパーツそれぞれにCSSを入れていく
 
@@ -238,7 +238,7 @@ li {
 
 いかがでしょう。長くなっているので、難しそうに感じるかもしれませんが、実際にはヘッダーの部分からパーツごとに順番に定義していっているので一つ一つのパーツの部分で見ればそれほど難しくないはずです。またレッスン4で習ったFlexboxを多く利用していますので、是非どんな風に使っているのか詳しく見てみて下さい。
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/2fg4m5hj/2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/2fg4m5hj/3/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson05-sample-insta-card)
 
